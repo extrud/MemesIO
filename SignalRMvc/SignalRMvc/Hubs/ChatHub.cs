@@ -4,13 +4,29 @@ using System.Linq;
 using System.Web;
 using Microsoft.AspNet.SignalR;
 using SignalRMvc.Models;
+using System.Threading;
 
 namespace SignalRMvc.Hubs
 {
     public class ChatHub : Hub
     {
+        public void Loop()
+        {
+            while (true)
+            {
+                Thread.Sleep(1000);
+                Clients.All.Update();
+            }
+        }
         static List<User> Users = new List<User>();
-
+        Thread LoopThread;
+        public ChatHub()
+        {
+          
+                LoopThread = new Thread(Loop);
+                LoopThread.Start();
+            
+        }
         // Отправка сообщений
         public void Send(string name, string message)
         {

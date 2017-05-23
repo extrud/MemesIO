@@ -71,3 +71,40 @@ D:\IT Step\ASP.NET\Примеры\2. MVC\SignalR-Chat\SignalRMvc\SignalRMvc\bin\
 D:\IT Step\ASP.NET\Примеры\2. MVC\SignalR-Chat\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.csprojResolveAssemblyReference.cache
 D:\IT Step\ASP.NET\Примеры\2. MVC\SignalR-Chat\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.dll
 D:\IT Step\ASP.NET\Примеры\2. MVC\SignalR-Chat\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.pdb
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\SignalRMvc.dll.config
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\SignalRMvc.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\SignalRMvc.pdb
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Antlr3.Runtime.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.Security.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Newtonsoft.Json.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Owin.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Helpers.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Mvc.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Optimization.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Razor.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\WebGrease.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Microsoft.Owin.Security.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Newtonsoft.Json.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Helpers.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Mvc.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Optimization.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.Razor.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\bin\Antlr3.Runtime.pdb
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.csprojResolveAssemblyReference.cache
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.dll
+C:\Users\fishkov\MemesIO\SignalRMvc\SignalRMvc\obj\Debug\SignalRMvc.pdb
