@@ -5,8 +5,13 @@
 
     // Функция, вызываемая при подключении нового пользователя
     game.client.onConnected = function (id, userName, allUsers) {
+        
+        alert("onConnected");
+    }
 
-        console.log("'onConnected'");
+    game.client.onLoginFailed = function () {
+
+        alert("onLoginFailed");
     }
 
     // Добавляем нового пользователя

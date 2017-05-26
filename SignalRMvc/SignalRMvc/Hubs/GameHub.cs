@@ -10,7 +10,7 @@ namespace SignalRMvc.Hubs
 {
     public class GameHub : Hub
     {
-        List<Player> Players = new List<Player>();
+        static List<Player> Players = new List<Player>();
 
         public void Connect(string username, int skinId, int color)
         {
@@ -21,6 +21,7 @@ namespace SignalRMvc.Hubs
                 if (Players.Any(p => p.Name == username))
                 {
                     // Such username exists
+                    Clients.Caller.onLoginFailed();
                 }
                 else
                 {

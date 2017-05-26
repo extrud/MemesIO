@@ -2,6 +2,9 @@
     Layout = null;
 }
 <<<<<<< HEAD
+<canvas id="cnv" width="800" height="600"></canvas>
+=======
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,35 +13,21 @@
 <body>
     <canvas id="cnv" width="800" height="600"></canvas>
     <h2>Чат-комната</h2>
+>>>>>>> cb1e27e3231c382b5e53ccea19f363cfd7539613
 
-    <div class="main">
-        <div id="loginBlock">
-            Введите логин:<br />
-            <input id="txtUserName" type="text" />
-            <input id="btnLogin" type="button" value="Войти" />
-        </div>
-        <div id="chatBody">
-            <div id="header"></div>
-            <div id="inputForm">
-                <input type="text" id="message" />
-                <input type="button" id="sendmessage" value="Отправить" />
-            </div>
-            <div id="chatroom"></div>
-
-            <div id="chatusers">
-                <p><b>Все пользователи</b></p>
-            </div>
-        </div>
-        <input id="hdId" type="hidden" />
-        <input id="username" type="hidden" />
+<div class="main">
+    <div id="loginBlock">
+        Введите логин:<br />
+        <input id="lgnUserName" type="text" />
+        <input id="btnLogin" type="button" value="Войти" />
     </div>
+    <input id="hdId" type="hidden" />
+    <input id="username" type="hidden" />
+</div>
 
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <!--Ссылка на библиотеку SignalR -->
-    <script src="~/Scripts/jquery.signalR-2.2.1.min.js"></script>
-    <!--Ссылка на автоматически сгенерированный скрипт хаба SignalR -->
-    <script src="~/signalr/hubs"></script>
-    <script src="~/Scripts/util.js"></script>
-
-</body>
-</html>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<!--Ссылка на библиотеку SignalR -->
+<script src="~/Scripts/jquery.signalR-2.2.1.min.js"></script>
+<!--Ссылка на автоматически сгенерированный скрипт хаба SignalR -->
+<script src="~/signalr/hubs"></script>
+<script src="~/Scripts/util.js"></script>
