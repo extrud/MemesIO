@@ -27,7 +27,9 @@ namespace SignalRMvc.Hubs
                 {
                     var newPlayer = new Player()
                     {
+                        ColorId = new Random().Next(11),
                         ConnectionId = id,
+                        IsDead = false,
                         Name = username
                     };
                     Players.Add(newPlayer);

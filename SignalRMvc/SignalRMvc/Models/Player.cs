@@ -22,7 +22,38 @@ namespace SignalRMvc.Models
         public int MoveY { get; set; }
         [JsonProperty("isDead")]
         public bool IsDead { get; set; }
+        [JsonProperty("colorId")]
+        public int ColorId { get; set; }
 
+        public Player()
+        {
+            Initialize();
+        }
 
+        private void Initialize()
+        {
+            switch(new Random().Next(1, 4))
+            {
+                case 1:
+                    this.MoveX = 0;
+                    this.MoveY = 1;
+                    break;
+                case 2:
+                    this.MoveX = 1;
+                    this.MoveY = 0;
+                    break;
+                case 3:
+                    this.MoveX = 0;
+                    this.MoveY = -1;
+                    break;
+                case 4:
+                    this.MoveX = -1;
+                    this.MoveY = 0;
+                    break;
+            }
+
+            this.PositionX = 0;
+            this.PositionY = 0;
+        }
     }
 }
