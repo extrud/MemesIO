@@ -6,24 +6,26 @@
     // Функция, вызываемая при подключении нового пользователя
     game.client.onConnected = function (id, userName, allUsers) {
         
-        alert("onConnected");
+        console.log("Connected.");
+        console.log(allUsers);
     }
 
     game.client.onLoginFailed = function () {
 
-        alert("onLoginFailed");
+        console.log("Such username exists!");
     }
 
     // Добавляем нового пользователя
-    game.client.onNewUserConnected = function (id, name) {
+    game.client.onNewPlayerConnected = function (id, newPlayer) {
 
-        AddUser(id, name);
+        AddPlayer(id, newPlayer.name);
     }
 
     // Удаляем пользователя
-    game.client.onUserDisconnected = function (id, userName) {
+    game.client.onPlayerDisconnected = function (id, userName) {
 
-        $('#' + id).remove();
+        // код чата
+        // $('#' + id).remove();
     }
 
     // Открываем соединение
@@ -49,12 +51,14 @@ function htmlEncode(value) {
     return encodedValue;
 }
 //Добавление нового пользователя
-function AddUser(id, name) {
+function AddPlayer(id, name) {
 
     var userId = $('#hdId').val();
 
     if (userId != id) {
 
-        $("#chatusers").append('<p id="' + id + '"><b>' + name + '</b></p>');
+        console.log(name + " connected!");
+        // код чата
+        // $("#chatusers").append('<p id="' + id + '"><b>' + name + '</b></p>');
     }
 }

@@ -25,24 +25,25 @@ namespace SignalRMvc.Hubs
                 }
                 else
                 {
-                    Players.Add(new Player()
+                    var newPlayer = new Player()
                     {
                         ConnectionId = id,
                         Name = username
-                    });
+                    };
+                    Players.Add(newPlayer);
 
                     // Посылаем сообщение текущему пользователю
                     Clients.Caller.onConnected(id, username, Players);
 
                     // Посылаем сообщение всем пользователям, кроме текущего
-                    // Clients.AllExcept(id).onNewUserConnected(id, userName);
+                    Clients.AllExcept(id).onNewPlayerConnected(id, newPlayer);
                 }
             }
         }
 
         public void ChangeDir(int dir)
         {
-            return;
+
         }
     }
 }
